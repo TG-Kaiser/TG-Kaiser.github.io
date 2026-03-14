@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+    <section id="audio">
+        <audio id="musica" loop>
+            <source src="audio/23.-The-Weeknd-Runaway-_Bonus-Track_.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+            document.addEventListener("click", function () {
+                let audio = document.getElementById("musica");
+                audio.volume = 0.2;
+                audio.play();
+            });
+        </script>
+    </section>
+
+
+
+    <section id="header">
+        <div class="container">
+            <header class="d-flex justify-content-center py-3">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item"><a href="top_canciones.html" class="nav-link">Top canciones</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                    
+                </ul>
+            </header>
+        </div>
+    </section>
+
+    <section id="presentacion">
+        <h1>¿Quién es The Weeknd?</h1>
+        <p>The Weeknd se ha consolidado como un referente de la música moderna al fusionar R&B, pop y hip-hop. Con
+            cuatro premios GRAMMY y múltiples discos de platino, ha dominado las listas desde su Trilogía (2012) hasta
+            el fenómeno global de After Hours (2020). Es el único artista en liderar simultáneamente el Billboard 200,
+            Hot 100 y Artist 100, posicionando sus obras como los álbumes de R&B más escuchados de la historia.</p>
+
+
+    </section>
+
+    <section id="imagenes">
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm"> <img src="img/after hours.png" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Un viaje psicodélico por la soledad, el arrepentimiento y el exceso en
+                                Las Vegas. La era que redefinió el pop moderno con una estética cinematográfica y
+                                oscura.</p>
+                        </div>
+                        <div class="btn-group"> <a
+                                href="https://open.spotify.com/intl-es/album/742eAldb4AJKLoPgJhGRE7?si=c599e5ddf2b74422"
+                                target="_blank" class="btn btn-sm btn-outline-secondary explorar-btn">
+                                EXPLORAR ERA
+                            </a></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm"> <img src="img/dawn fm.jpg" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">La radio del purgatorio. Una experiencia inmersiva de synth-pop que nos
+                                guía a través de la transición de la oscuridad hacia la luz, bajo la voz de un DJ
+                                misterioso.</p>
+                        </div>
+                        <div class="btn-group"> <a
+                                href="https://open.spotify.com/intl-es/album/2nLOHgzXzwFEpl62zAgCEC?si=ea6e8d61e3484bf2"
+                                target="_blank" class="btn btn-sm btn-outline-secondary explorar-btn">
+                                EXPLORAR ERA
+                            </a></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm"> <img src="img/hurry up tomorrow.jpg" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">El acto final de la trilogía. Una culminación espiritual y sonora que
+                                cierra el ciclo de autodestrucción y renacimiento de Abel Tesfaye.</p>
+                        </div>
+                        <div class="btn-group"> <a
+                                href="https://open.spotify.com/intl-es/album/3OxfaVgvTxUTy7276t7SPU?si=c477532f00294ef0"
+                                target="_blank" class="btn btn-sm btn-outline-secondary explorar-btn">
+                                EXPLORAR ERA
+                            </a></div>
+                    </div>
+                </div>
+
+
+    </section>
+
+    <section id="video">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <div class="ratio ratio-16x9 shadow-lg">
+                        <div class="video-poster-container">
+                            <img src="img/superbowl.jpg" alt="The Weeknd Super Bowl" width="600px" class="poster-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-white lh-1 mb-3">La Leyenda del Halftime</h1>
+                    <p class="lead text-light">Revive el espectáculo que paralizó al mundo y consolidó la era After
+                        Hours como un fenómeno cultural global.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="https://www.youtube.com/watch?v=9rhadTURsrw" target="_blank"><button type="button"
+                                class="btn btn-danger btn-lg px-4 me-md-2">Ver show</button></a>
+                        <a href="https://open.spotify.com/playlist/6cc7YU7CORkqpvtuH8g0aV?si=30349ce9a66a47f6"
+                            target="_blank"><button type="button"
+                                class="btn btn-outline-light btn-lg px-4">Setlist</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="subtitulo">Traspasando a la pantalla grande</h2>
+
+    <section id="pantalla_grande">
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static"> <strong
+                            class="d-inline-block mb-2 text-primary-emphasis">HBO ORIGINAL</strong>
+                        <h3 class="mb-0">The Idol: Fama y Control</h3>
+                        <div class="mb-1 text-body-secondary">Jun 2023</div>
+                        <p class="card-text mb-auto">Abel Tesfaye se adentra en las sombras de la industria musical
+                            interpretando a Tedros. Una serie que explora los límites del culto, la ambición y el precio
+                            de convertirse en una estrella bajo las luces de Los Ángeles.</p> <a
+                            href="https://www.hbomax.com/pe/es/shows/idol/8893abd5-1a33-477b-94e4-20329e2d37ef"
+                            target="_blank" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Ver en Max
+                            <svg class="bi" aria-hidden="true">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg> </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block"> <img src="img/the idol.jpg" height="250" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static"> <strong
+                            class="d-inline-block mb-2 text-success-emphasis">LARGOMETRAJE</strong>
+                        <h3 class="mb-0">Hurry Up Tomorrow</h3>
+                        <div class="mb-1 text-body-secondary">2025 / 2026</div>
+                        <p class="mb-auto">El debut cinematográfico de Abel junto a Jenna Ortega. Este thriller
+                            psicológico sirve como pieza visual clave para cerrar su trilogía musical, prometiendo una
+                            experiencia inmersiva que expande su universo sonoro.</p> <a
+                            href="https://www.hbomax.com/tr/en/movies/hurry-up-tomorrow/564e9c70-6203-4506-95c6-de43682102fe"
+                            target="_blank" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Más detalles
+                            <svg class="bi" aria-hidden="true">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg> </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block"> <img src="img/movie hurry.jpg" height="250" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="footer">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center"> <span class="mb-3 mb-md-0 text-body-secondary">© 2026
+                        XO Records</span> </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/theweeknd/#"
+                            target="_blank" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary"
+                            href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ" target="_blank"
+                            aria-label="Youtube"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                            </svg></a></li>
+                </ul>
+            </footer>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>

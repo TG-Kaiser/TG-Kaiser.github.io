@@ -1,0 +1,167 @@
+body {
+    background-image: url(img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header .container {
+    background: rgba(66, 61, 61, 0.4);
+    width: 650px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#header .nav-link {
+    color: white;
+}
+
+#header .nav-link:hover {
+    color: white;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: rgba(241, 133, 61, 0.1);
+}
+
+#header .nav {
+    color: white;
+}
+
+#header .nav-item:hover{
+
+    background-color: #443125;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+
+
+#presentacion h1 {
+    color: red;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#presentacion p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 15px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 1230px;
+    text-align: justify;
+    line-height: 1.8;
+    margin: auto;
+
+
+}
+
+#imagenes .card-body {
+
+    background-color: rgb(54, 52, 52);
+
+
+}
+
+#imagenes .container {
+    margin-top: 30px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+    border-color: #ff0000;
+    transition: 0.4s;
+}
+
+#imagenes .card-text {
+    color: white;
+
+}
+
+.subtitulo{
+
+    color: red;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.col-md-6{
+    width: 800px;
+    margin: auto;
+}
+
+/* Llamamos a la estructura de la tarjeta de Bootstrap */
+.row.g-0.border.rounded {
+    background-color: rgba(0, 0, 0, 0.85) !important; /* Negro con ligera transparencia */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque muy elegante */
+    border: 1px solid #444 !important; /* Borde gris oscuro para que no brille tanto */
+    transition: all 0.3s ease;
+}
+
+/* Cambiamos el color de los textos dentro de la tarjeta */
+.row.g-0.border.rounded h3 {
+    color: white !important;
+}
+
+.row.g-0.border.rounded p {
+    color: #ccc !important; /* Gris claro para el párrafo */
+}
+
+.row.g-0.border.rounded .text-body-secondary {
+    color: rgba(255, 255, 255, 0.5) !important; /* La fecha en blanco suave */
+}
+
+/* El link de "Continue reading" ahora en rojo */
+.row.g-0.border.rounded .icon-link {
+    color: #ff0000 !important;
+    text-decoration: none;
+}
+
+/* Efecto opcional: Brillo rojo al pasar el mouse */
+.row.g-0.border.rounded:hover {
+    border-color: #ff0000 !important;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+/* 1. Estilo inicial de la imagen */
+.row.g-0.border.rounded img {
+    filter: grayscale(80%) brightness(0.7); /* Casi blanco y negro y un poco oscura */
+    transition: all 0.5s ease; /* Transición suave de medio segundo */
+    object-fit: cover; /* Evita que la imagen se deforme */
+}
+
+/* 2. Efecto cuando pasas el mouse por la TARJETA */
+.row.g-0.border.rounded:hover img {
+    filter: grayscale(0%) brightness(1.1); /* Recupera color y brilla un poco más */
+    transform: scale(1.05); /* Un ligero zoom para dar profundidad */
+}
+
+/* 3. Aseguramos que el contenedor de la imagen no se desborde con el zoom */
+.col-auto.d-none.d-lg-block {
+    overflow: hidden;
+}
+
+
+#footer .text-body-secondary {
+    --bs-text-opacity: 1;
+    color: white !important;
+}
+
