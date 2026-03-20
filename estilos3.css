@@ -9,35 +9,36 @@ body {
 }
 
 #header .container {
-    background: rgba(56, 55, 55, 0.4);
+    background: rgba(66, 61, 61, 0.4);
     backdrop-filter: blur(5px);
-    width: 650px;
+    width: 1200px;
     border-radius: 15px 15px 15px 15px;
 }
+
+#header .col-md-3 img{
+    padding-top: 5px;
+    border-radius: 8px 8px 5px 5px;
+}
+
 
 #header .nav-link {
     color: white;
 }
 
-#header .nav-link:hover {
-    color: white;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    color: var(--bs-nav-pills-link-active-color);
-    background-color: rgba(241, 133, 61, 0.1);
-}
-
-#header .nav {
-    color: white;
-}
-
-#header .nav-item:hover{
-
-    background-color: #181717;
+#header .nav-link:hover{
+    background-color: #312f2d;
     border-radius: 5px 5px 5px 5px;
+}
 
+#header .btn{
+    border: 1px white solid;
+    color: white;
+}
+
+#header .btn:hover{
+    background-color: rgb(138, 135, 135);
+    border: rgb(54, 52, 52);
+    color: black;
 }
 
 
@@ -92,9 +93,65 @@ body {
     object-fit: cover;
 }
 
+.subtitulo {
+    color: #ff0000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+#tablas {
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+table {
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.9);
+    border: 1px solid black;
+}
+
+
+thead {
+    background-color: #000;
+    border-bottom: 2px solid #ff0000;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #222;
+    color: #e0e0e0;
+}
+
+
+tbody tr:hover {
+    background-color: rgba(204, 24, 24, 0.05);
+    color: #fff;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(20, 20, 20, 0.5);
+}
 
 #footer .text-body-secondary {
-    --bs-text-opacity: 1;
     color: white !important;
 }
 

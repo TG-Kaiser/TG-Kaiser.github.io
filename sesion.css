@@ -1,0 +1,40 @@
+body {
+    background-image: url(img/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form{
+
+background-color: rgba(138, 131, 131, 0.4);
+padding: 15px;
+border-radius: 15px;
+
+}
+
+form .mb-4{
+border-radius: 5px;
+}
+
+form .h3{
+color: black;
+}
+
+form .btn{
+
+background-color: rgb(54, 52, 52);
+border: black;
+
+}
+
+form .btn:hover{
+background-color: rgb(138, 135, 135) !important;
+border: rgb(54, 52, 52) !important;
+color: rgb(58, 57, 57);
+}
+
+
+
+
+
